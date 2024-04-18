@@ -1,18 +1,18 @@
-Titanic Survival
+## Titanic Survival
 
-Titanic Survivor Prediction: 
+# Titanic Survivor Prediction: 
  
-Introduction: 
+# Introduction: 
 This project aims to build a machine learning model that predicts the likelihood of survival for passengers aboard the Titanic based on various attributes such as age, gender, ticket class, etc. 
 
-Overview
+# Overview
 
 The data has been split into two groups:
 
 Training set (train.csv): Used to build machine learning models. The outcome (ground truth) for each passenger is provided.
 Test set (test.csv): Used to evaluate how well the model performs on unseen data. The ground truth for each passenger is not provided, and it is the job of the model to predict these outcomes.
 
-Features Used
+# Features Used
 
 The following features were used in building the model:
 
@@ -21,7 +21,7 @@ Gender (Sex)
 Ticket class (Pclass)
 Embarked port (Embarked)
 
-Libraries Used
+# Libraries Used
 
 The following libraries were used in this project:
 
@@ -42,7 +42,7 @@ Results
 
 The model predicted that around 38.04% of the passengers in the test dataset would survive the Titanic sinking.
 
-Files Included
+# Files Included
 
 train.csv: Training data containing features and ground truth labels.
 test.csv: Test data containing features without ground truth labels.
